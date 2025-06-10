@@ -1,0 +1,68 @@
+.cardContainer {
+	border: 0.1rem solid rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	padding: 1.5rem;
+	background: rgba(255, 255, 255, 0.2);
+	transition: transform 0.3s ease;
+}
+
+.cardContainer:hover {
+	transform: scale(1.05);
+}
+
+.headerSection {
+	margin-bottom: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.title {
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 0.2rem 0.2rem 0 brown, -0.2rem 0.2rem 0 brown,
+		0.2rem -0.2rem 0 brown, -0.2rem -0.2rem 0 brown;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+.episodeId {
+	padding: 0.25rem 0.75rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-shadow: 0.05rem 0.05rem 0 rgb(109, 109, 45),
+		-0.05rem 0.05rem 0 rgb(109, 109, 45), 0.05rem -0.05rem 0 rgb(109, 109, 45),
+		-0.05rem -0.05rem 0 rgb(109, 109, 45);
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.label {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.value {
+	font-size: 1rem;
+	text-align: right;
+	flex: 1;
+}
